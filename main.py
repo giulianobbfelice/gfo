@@ -1376,7 +1376,7 @@ elif st.session_state['current_page'] == "Gerador de Artigos":
         
         <div style="text-align: center; margin-top: -3.5rem; margin-bottom: 1rem;">
             <div class="gfo-tag" style="margin-bottom: 0.5rem;">GEO MACHINE AGENT</div>
-            <h1 style="font-size: 3rem; margin-top: 0rem; margin-bottom: 0.5rem;">Machine GEO <span style="color: #4ED1A3;">Generative Focos Only</span></h1>
+            <h1 style="font-size: 3rem; margin-top: 0rem; margin-bottom: 0.5rem;">Machine GEO <span style="color: #4ED1A3;">Generative Focus Only</span></h1>
             <p style="font-size: 1.1rem; color: #4B5563; margin-top: 0; font-family: 'Inter', sans-serif;">
                 This agente is about creat texts for LLMs : <span class="animated-ia"></span>
             </p>
@@ -1455,7 +1455,7 @@ elif st.session_state['current_page'] == "Gerador de Artigos":
         # ==========================================
         st.markdown("""
         <div style="text-align: center; margin-bottom: 2rem;">
-            <h1 style="font-size: 2rem;">Machine GEO <span style="color: #4ED1A3; font-size: 1.2rem;">Generative Focos Only</span></h1>
+            <h1 style="font-size: 2rem;">Machine GEO <span style="color: #4ED1A3; font-size: 1.2rem;">Generative Focus Only</span></h1>
         </div>
         """, unsafe_allow_html=True)
         
