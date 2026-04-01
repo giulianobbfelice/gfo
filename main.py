@@ -28,9 +28,9 @@ def get_base64_of_bin_file(bin_file):
     except Exception:
         return ""
 
-# CARREGUE SUA LOGO AQUI (Salve a imagem anexada como logo.png na pasta do projeto)
-logo_b64 = get_base64_of_bin_file("logo.png")
-logo_data_uri = f"data:image/png;base64,{logo_b64}" if logo_b64 else ""
+# CARREGUE SUA LOGO AQUI
+logo_b64 = get_base64_of_bin_file("file.svg")
+logo_data_uri = f"data:image/svg+xml;base64,{logo_b64}" if logo_b64 else ""
 
 # Lógica de Navegação via Query Parameters (Mais estável que botões)
 query_params = st.query_params
@@ -1375,7 +1375,7 @@ elif st.session_state['current_page'] == "Gerador de Artigos":
         </style>
         
         <div style="text-align: center; margin-top: -3.5rem; margin-bottom: 1rem;">
-            <div class="gfo-tag" style="margin-bottom: 0.5rem;">MOTOR DE INTELIGÊNCIA</div>
+            <div class="gfo-tag" style="margin-bottom: 0.5rem;">GEO MACHINE AGENT</div>
             <h1 style="font-size: 3rem; margin-top: 0rem; margin-bottom: 0.5rem;">Machine GEO <span style="color: #4ED1A3;">Generative Focos Only</span></h1>
             <p style="font-size: 1.1rem; color: #4B5563; margin-top: 0; font-family: 'Inter', sans-serif;">
                 This agente is about creat texts for LLMs : <span class="animated-ia"></span>
