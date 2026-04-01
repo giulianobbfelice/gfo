@@ -1,33 +1,20 @@
 # .streamlit/config.toml
-
 [theme]
 
-
-
 # Trava o tema base sempre no modo claro
-
 base = "light"
 
-
-
 # A cor principal da Arco (pode ser o Laranja ou Azul deles. Aqui usei o Laranja de destaque)
-
-primaryColor = "#F05D23" 
-
-
+primaryColor = "#F05D23" 
 
 # Cor de fundo principal (site clean)
-
 backgroundColor = "#FFFFFF"
 
-
-
 # Cor de fundo secundária (para a sidebar e blocos de fundo)
-
 secondaryBackgroundColor = "#F4F5F7"
 
-
-
 # Cor do texto (Cinza escuro, como o text-gray-950 do HTML)
-
 textColor = "#111827"
+
+# Fonte do corpo do texto (Inter é limpa e corporativa, muito usada por eles)
+font = "sans serif"
