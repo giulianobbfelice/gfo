@@ -4,8 +4,8 @@
 # Trava o tema base sempre no modo claro
 base = "light"
 
-# A cor principal da Arco (pode ser o Laranja ou Azul deles. Aqui usei o Laranja de destaque)
-primaryColor = "#F05D23" 
+# A cor principal da GFO (Verde destaque)
+primaryColor = "#4ED1A3" 
 
 # Cor de fundo principal (site clean)
 backgroundColor = "#FFFFFF"
@@ -16,5 +16,5 @@ secondaryBackgroundColor = "#F4F5F7"
 # Cor do texto (Cinza escuro, como o text-gray-950 do HTML)
 textColor = "#111827"
 
-# Fonte do corpo do texto (Inter é limpa e corporativa, muito usada por eles)
+# Fonte do corpo do texto (Inter é limpa e corporativa)
 font = "sans serif"
