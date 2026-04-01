@@ -242,7 +242,7 @@ nav_cols = st.columns([2, 2, 2, 2, 2, 2])
 
 with nav_cols[0]:
     if logo_data_uri:
-        st.markdown(f'<img src="{logo_data_uri}" style="width: 140px; margin-top: -20px;" alt="Logo GFO">', unsafe_allow_html=True)
+        st.markdown(f'<img src="{logo_data_uri}" style="width: 50px; margin-top: -5px;" alt="Logo GFO">', unsafe_allow_html=True)
     else:
         st.markdown('<h3>GFO</h3>', unsafe_allow_html=True)
 
